@@ -32,7 +32,7 @@ In this project there are 4 main entities: User, Restaurant, Reservation and Men
 
 User endpoints. Path: /app/v1/user
 * GET /{id}: Return a user by ID.
-* POST: Add a new barber.
+* POST: Add a new user.
 * DELETE /{id}: Delete user by ID.
 
 Restaurant endpoints. Path: /app/v1/restaurant
@@ -50,7 +50,7 @@ Reservation endpoints. Path: /app/v1/reservation
 
 Menu endpoints. Path: /app/v1/menu 
 
-* GET /{id_restaurant}: Return Menus by restaurant id.
+* GET /{id_restaurant}: Return Menu by restaurant id.
 * POST: Add a new Menu.
 * PUT: /{id} Modify price of menu id.
 * DELETE /{id}: Delete menu by ID.  
