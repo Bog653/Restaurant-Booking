@@ -31,29 +31,29 @@ In this project there are 4 main entities: User, Restaurant, Reservation and Men
 (work in progress)
 
 User endpoints. Path: /app/v1/user
-* GET /{id}: Return a user by ID.
+* GET /{id}: Return a user by id.
 * POST: Add a new user.
-* DELETE /{id}: Delete user by ID.
+* DELETE /{id}: Delete user by id.
 
 Restaurant endpoints. Path: /app/v1/restaurant
 
 * GET /{city}: Return restaurants by city.
 * POST: Add a new restaurant.
-* DELETE /{id}: Delete restaurant by ID. If you remove a restaurant in db is introduced a cascade operation for remove Menu and Reservation for the removed restaurant. 
+* DELETE /{id}: Delete restaurant by id. If you remove a restaurant in db is introduced a cascade operation for remove Menu and Reservation for the removed restaurant. 
 
 Reservation endpoints. Path: /app/v1/reservation
 
 * GET /{id}: Return reservation by id.
 * POST: Add a new reservation.
 * PUT: /{id} Modify number of people reservation by id.
-* DELETE /{id}: Delete reservation by ID.  
+* DELETE /{id}: Delete reservation by id.  
 
 Menu endpoints. Path: /app/v1/menu 
 
 * GET /{id_restaurant}: Return Menu by restaurant id.
 * POST: Add a new Menu.
 * PUT: /{id} Modify price of menu id.
-* DELETE /{id}: Delete menu by ID.  
+* DELETE /{id}: Delete menu by id.  
 
 ## Project Structure
 
